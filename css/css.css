@@ -1,0 +1,71 @@
+body {
+    font-family:  Arial, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1024px;
+    height: 100%;
+}
+
+.about-me-container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.photo {
+    border-radius: 50%;
+    border: 2px solid #5a5048;
+    height: 171px;
+    width: 171px;
+}
+
+.my-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-me-paragraph {
+    width: 700px;
+}
+
+.my-personal-information {
+    display: grid;
+    grid-template-columns: 100px 250px;
+    grid-template-rows: 40px 40px 40px 40px;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.my-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 1024px;
+    height: 70px;
+    background-color: #00BFA5;
+}
+
+.icon {
+    font-size: 21pt;
+    color: white;
+    margin-right: 80px;
+    padding: 15px 15px;
+}
+
+.icon:hover {
+    border-radius: 50%;
+    border: 2px solid #f9fdff;
+}
+
