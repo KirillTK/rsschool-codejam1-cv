@@ -10,17 +10,17 @@ body {
 }
 
 .about-me-container {
-    padding-top: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 100px;
 }
 
 .photo {
-    border-radius: 50%;
-    border: 2px solid #5a5048;
     height: 171px;
     width: 171px;
+    border-radius: 50%;
+    border: 2px solid #5a5048;
 }
 
 .my-information {
@@ -35,8 +35,7 @@ body {
 
 .my-personal-information {
     display: grid;
-    grid-template-columns: 100px 250px;
-    grid-template-rows: 40px 40px 40px 40px;
+    grid: repeat(4, 40px)/ 100px 250px;
     align-items: center;
 }
 
@@ -59,10 +58,10 @@ body {
 }
 
 .icon {
-    font-size: 21pt;
-    color: white;
     margin-right: 80px;
     padding: 25px 25px;
+    font-size: 21pt;
+    color: white;
     border: 2px solid #00BFA5;
 }
 
@@ -74,15 +73,14 @@ body {
 .skill-item {
     display: flex;
     flex-direction: row;
-    width: 250px;
     justify-content: left;
+    width: 250px;
     padding-bottom: 30px;
 }
 
 .skills-grid {
     display: grid;
-    grid-template-columns: 250px 250px 250px 250px;
-    grid-template-rows: 100px 100px;
+    grid: 100px 100px/  repeat(4, 250px);
 }
 
 .skill-item h2 {
@@ -90,9 +88,9 @@ body {
 }
 
 .project-item {
-    margin-top: 30px;
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
 }
 
 .portfolio {
@@ -102,21 +100,24 @@ body {
 }
 
 .portfolio2 {
-    width: 950px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 950px;
 }
-.double-photo{
+
+.double-photo {
     display: flex;
     justify-content: center;
     flex-direction: row;
     margin-bottom: 40px;
 }
+
 .double-photo img {
     margin-right: 50px;
 }
+
 .black-icon {
-    color: black;
     font-size: 31pt;
+    color: black;
 }
