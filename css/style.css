@@ -35,7 +35,7 @@ body {
 
 .my-personal-information {
     display: grid;
-    grid: repeat(4, 40px)/ 100px 250px;
+    grid: repeat(4, 65px)/ 100px 250px;
     align-items: center;
 }
 
