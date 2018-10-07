@@ -59,7 +59,7 @@ body {
 }
 
 .icon {
-    margin-right: 80px;
+    margin: 80px;
     padding: 25px 25px;
     font-size: 21pt;
     color: white;
@@ -67,7 +67,7 @@ body {
 }
 
 .icon:hover {
-    border-radius: 55%;
+    border-radius: 40%;
     border: 2px solid #f9fdff;
 }
 
