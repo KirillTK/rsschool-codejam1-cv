@@ -122,3 +122,11 @@ body {
     font-size: 31pt;
     color: black;
 }
+
+.title {
+    text-align: center;
+}
+
+.name-project {
+    text-align: left;
+}
